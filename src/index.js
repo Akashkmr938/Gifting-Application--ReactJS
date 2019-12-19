@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './index.scss';
+import App from './App';
+import axios from 'axios';
+import AuthContextProvider from './app/context/auth-context';
 
-ReactDOM.render(<App /> , document.getElementById('root'));
+axios.defaults.baseURL = "http://localhost:3004";
+
+ReactDOM.render(<AuthContextProvider><App /></AuthContextProvider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

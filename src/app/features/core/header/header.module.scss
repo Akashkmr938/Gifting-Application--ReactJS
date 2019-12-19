@@ -1,0 +1,11 @@
+$pointerValue: pointer;
+
+.logo {
+    cursor: $pointerValue;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.tabWrapper {
+    margin-top: 65px;
+}
