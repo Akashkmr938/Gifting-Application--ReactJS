@@ -31,12 +31,14 @@ const useStyles = makeStyles({
 });
 
 
-const GiftCard = (props) => {
+const GiftCard = React.memo((props) => {
     const classes = useStyles();
     const routeTogiftDetails = useCallback(() => {
         props.history.push(`/details?giftId=${props.id}`);
-    }, [])
-    const buttonHandler = useCallback(() => { routeTogiftDetails(props.id) }, [])
+    }, [props.history, props.id])
+    const buttonHandler = useCallback(() => {
+        routeTogiftDetails(props.id)
+    }, [props.id, routeTogiftDetails])
 
     return (
         <Card className={classes.card}>
@@ -50,7 +52,7 @@ const GiftCard = (props) => {
                     title="Gift Card"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography className={classes.cardtext} gutterBottom variant="h5" component="h2">
                         {props.cardName}
                     </Typography>
                     <Typography className={classes.cardtext} variant="body2" color="textSecondary" component="p">
@@ -63,6 +65,6 @@ const GiftCard = (props) => {
             </CardActions>
         </Card>
     );
-}
+});
 
 export default withRouter(GiftCard);

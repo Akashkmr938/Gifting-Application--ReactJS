@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header component renders correctly 1`] = `
+Array [
+  <header
+    className="makeStyles-root-1"
+  >
+    <header
+      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionSticky makeStyles-Appbar-5 MuiAppBar-colorPrimary"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <img
+          alt="logo icon"
+          className="logo"
+          onClick={[Function]}
+          src="logo.png"
+        />
+        <button
+          aria-label="menu"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-2 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="menu"
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            YoYoGift
+          </span>
+        </button>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            aria-expanded={false}
+            aria-owns={null}
+            className="MuiAutocomplete-root"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            role="combobox"
+            style={
+              Object {
+                "width": 300,
+              }
+            }
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root searchInput MuiFormControl-fullWidth"
+            >
+              <label
+                className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                data-shrink={false}
+                htmlFor="combo-box-demo"
+                id="combo-box-demo-label"
+              >
+                Search
+              </label>
+              <div
+                className="MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+                onClick={[Function]}
+              >
+                <input
+                  aria-activedescendant={null}
+                  aria-autocomplete="list"
+                  aria-controls={null}
+                  aria-invalid={false}
+                  autoCapitalize="none"
+                  autoComplete="off"
+                  autoFocus={false}
+                  className="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+                  disabled={false}
+                  id="combo-box-demo"
+                  onAnimationStart={[Function]}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  required={false}
+                  spellCheck="false"
+                  type="text"
+                  value=""
+                />
+                <div
+                  className="MuiAutocomplete-endAdornment"
+                >
+                  <button
+                    aria-label="Clear"
+                    className="MuiButtonBase-root MuiIconButton-root MuiAutocomplete-clearIndicator"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={-1}
+                    title="Clear"
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <button
+                    aria-label="Open"
+                    className="MuiButtonBase-root MuiIconButton-root MuiAutocomplete-popupIndicator"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={-1}
+                    title="Open"
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="MuiSvgIcon-root"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 10l5 5 5-5z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+                <fieldset
+                  aria-hidden={true}
+                  className="PrivateNotchedOutline-root-149 MuiOutlinedInput-notchedOutline"
+                  style={
+                    Object {
+                      "paddingLeft": 8,
+                    }
+                  }
+                >
+                  <legend
+                    className="PrivateNotchedOutline-legend-150"
+                    style={
+                      Object {
+                        "width": 0.01,
+                      }
+                    }
+                  >
+                    <span
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&#8203;",
+                        }
+                      }
+                    />
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div
+          className="makeStyles-title-3"
+          variant="h6"
+        />
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root logoIcon"
+            focusable="false"
+            onClick={[Function]}
+            role="button"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+  </header>,
+  <div
+    className="tabWrapper"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-6 MuiPaper-rounded"
+    />
+  </div>,
+]
+`;

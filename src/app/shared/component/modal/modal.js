@@ -4,19 +4,21 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import Slide from '@material-ui/core/Slide';
 import SendGift from './../../../features/send-gift/sendgift';
-import { AuthContext } from '../../../context/auth-context';
+import { Context } from '../../../context/context';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
 export default function Modal(props) {
-  const modalContext = useContext(AuthContext);
-  console.log(modalContext);
-  
+  const modalContext = useContext(Context);
 
   const closeHandler = () => {
     modalContext.toggleModal();
+  }
+
+  const snackBarHandle = (msg) => {
+    props.snackBarhandler(msg);
   }
   return (
     <div>
@@ -30,7 +32,7 @@ export default function Modal(props) {
       >
         <DialogTitle id="alert-dialog-slide-title">{"Send Gift"}</DialogTitle>
         <DialogContent>
-          <SendGift />
+          <SendGift snackBarHandle={snackBarHandle} />
         </DialogContent>
       </Dialog>
     </div>

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The UserProfile component renders correctly 1`] = `
+<div>
+  <img
+    alt="user profile"
+    className="img"
+    src=""
+  />
+  <h2>
+    Name: 
+    
+  </h2>
+  <h2>
+    E-mail: 
+    
+  </h2>
+  <h2>
+    Wallet Balance: 
+  </h2>
+</div>
+`;

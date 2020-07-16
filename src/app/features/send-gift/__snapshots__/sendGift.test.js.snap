@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The SendGift component renders correctly 1`] = `
+<div
+  className="SendGift-container-2"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined"
+        data-shrink={false}
+        htmlFor="firstName"
+        id="firstName-label"
+      >
+        First Name
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          disabled={false}
+          id="firstName"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-64 MuiOutlinedInput-notchedOutline"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="PrivateNotchedOutline-legend-65"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+      
+    </div>
+    <div
+      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined"
+        data-shrink={false}
+        htmlFor="lastName"
+        id="lastName-label"
+      >
+        Last Name
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          disabled={false}
+          id="lastName"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-64 MuiOutlinedInput-notchedOutline"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="PrivateNotchedOutline-legend-65"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+      
+    </div>
+    <div
+      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined"
+        data-shrink={false}
+        htmlFor="email"
+        id="email-label"
+      >
+        Email
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          disabled={false}
+          id="email"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="email"
+          value=""
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-64 MuiOutlinedInput-notchedOutline"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="PrivateNotchedOutline-legend-65"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+      
+    </div>
+    <div
+      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined"
+        data-shrink={false}
+        htmlFor="course"
+        id="course-label"
+      >
+        Select a messsage
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+        onClick={[Function]}
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="course-label course"
+          className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          id="course"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "&#8203;",
+              }
+            }
+          />
+        </div>
+        <input
+          autoFocus={false}
+          onAnimationStart={[Function]}
+          type="hidden"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-64 MuiOutlinedInput-notchedOutline"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="PrivateNotchedOutline-legend-65"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+      
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="submit"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          SUBMIT
+        </span>
+      </button>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          CLEAR
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

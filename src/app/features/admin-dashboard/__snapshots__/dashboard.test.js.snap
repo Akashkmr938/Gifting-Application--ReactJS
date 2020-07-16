@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The dashboard component renders correctly 1`] = `
+<div
+  aria-colcount={6}
+  aria-rowcount={0}
+  className="ReactVirtualized__Table"
+  role="grid"
+  style={Object {}}
+>
+  <div
+    className="ReactVirtualized__Table__headerRow"
+    role="row"
+    style={
+      Object {
+        "height": 20,
+        "overflow": "hidden",
+        "paddingRight": 0,
+        "width": 1700,
+      }
+    }
+  >
+    <div
+      className="ReactVirtualized__Table__headerColumn"
+      role="columnheader"
+      style={
+        Object {
+          "WebkitFlex": "0 1 200px",
+          "flex": "0 1 200px",
+          "msFlex": "0 1 200px",
+        }
+      }
+    >
+      <span
+        className="ReactVirtualized__Table__headerTruncatedText"
+        title="Card ID"
+      >
+        Card ID
+      </span>
+    </div>
+    <div
+      className="ReactVirtualized__Table__headerColumn"
+      role="columnheader"
+      style={
+        Object {
+          "WebkitFlex": "0 1 800px",
+          "flex": "0 1 800px",
+          "msFlex": "0 1 800px",
+        }
+      }
+    >
+      <span
+        className="ReactVirtualized__Table__headerTruncatedText"
+        title="Card Name"
+      >
+        Card Name
+      </span>
+    </div>
+    <div
+      className="ReactVirtualized__Table__headerColumn"
+      role="columnheader"
+      style={
+        Object {
+          "WebkitFlex": "0 1 200px",
+          "flex": "0 1 200px",
+          "msFlex": "0 1 200px",
+        }
+      }
+    >
+      <span
+        className="ReactVirtualized__Table__headerTruncatedText"
+        title="Card Brand"
+      >
+        Card Brand
+      </span>
+    </div>
+    <div
+      className="ReactVirtualized__Table__headerColumn"
+      role="columnheader"
+      style={
+        Object {
+          "WebkitFlex": "0 1 200px",
+          "flex": "0 1 200px",
+          "msFlex": "0 1 200px",
+        }
+      }
+    >
+      <span
+        className="ReactVirtualized__Table__headerTruncatedText"
+        title="Price Points"
+      >
+        Price Points
+      </span>
+    </div>
+    <div
+      className="ReactVirtualized__Table__headerColumn"
+      role="columnheader"
+      style={
+        Object {
+          "WebkitFlex": "0 1 200px",
+          "flex": "0 1 200px",
+          "msFlex": "0 1 200px",
+        }
+      }
+    >
+      <span
+        className="ReactVirtualized__Table__headerTruncatedText"
+        title="Discount"
+      >
+        Discount
+      </span>
+    </div>
+    <div
+      className="ReactVirtualized__Table__headerColumn"
+      role="columnheader"
+      style={
+        Object {
+          "WebkitFlex": "0 1 1000px",
+          "flex": "0 1 1000px",
+          "msFlex": "0 1 1000px",
+        }
+      }
+    >
+      <span
+        className="ReactVirtualized__Table__headerTruncatedText"
+        title="Description"
+      >
+        Description
+      </span>
+    </div>
+  </div>
+  <div
+    aria-label="grid"
+    aria-readonly={null}
+    className="ReactVirtualized__Grid ReactVirtualized__Table__Grid"
+    onScroll={[Function]}
+    role="rowgroup"
+    style={
+      Object {
+        "WebkitOverflowScrolling": "touch",
+        "boxSizing": "border-box",
+        "direction": "ltr",
+        "height": 600,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "position": "relative",
+        "width": 1700,
+        "willChange": "transform",
+      }
+    }
+    tabIndex={0}
+  />
+</div>
+`;

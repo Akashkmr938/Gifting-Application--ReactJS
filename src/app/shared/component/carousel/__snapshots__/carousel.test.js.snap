@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Carousel component renders correctly 1`] = `
+<div
+  className="carousel-wrapper"
+  style={
+    Object {
+      "height": "40%",
+      "marginBottom": "60px",
+      "width": "100%",
+    }
+  }
+>
+  <span
+    id="target-item-1"
+  />
+  <span
+    id="target-item-2"
+  />
+  <span
+    id="target-item-3"
+  />
+  <div
+    className="carousel-item item-1"
+    style={
+      Object {
+        "backgroundImage": "url('https://image.freepik.com/free-vector/black-friday-gift-sale-minimal-background_1017-15996.jpg')",
+        "height": "450px",
+        "marginBottom": "20px",
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Homepage component renders correctly 1`] = `
+<footer
+  className="makeStyles-root-1"
+>
+  <div
+    className="makeStyles-footer-2"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthSm"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body2"
+      >
+        YoYoGift PVT LTD.
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter"
+      >
+        Copyright © 
+        <a
+          className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+          href="https://mindtree.com"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          YoYoGift
+        </a>
+         
+        2020
+        .
+      </p>
+    </div>
+  </div>
+</footer>
+`;
