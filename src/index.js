@@ -5,7 +5,7 @@ import App from "./App";
 import axios from "axios";
 import ContextProvider from "./app/context/context";
 
-axios.defaults.baseURL = "https://airline-jsonserver.herokuapp.com";
+axios.defaults.baseURL = "https://gifting-app-server.herokuapp.com";
 
 ReactDOM.render(
   <ContextProvider>
